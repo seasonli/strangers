@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>都是夜归人</title>
+    <meta property="weixin:timeline_title" content="都是夜归人" />
+    <meta property="weixin:chat_title" content="都是夜归人" />
+    <meta property="weixin:description" content="description" content="来自小城的我们，纷纷涌进大城，用心建造自己的家" />
+    <meta property="weixin:image" content="../static/img/icon.jpg" />
+    <link rel="stylesheet" type="text/css" href="../static/css/app.669cad.css">
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+  </head>
+  <body>
+    <div id="cover" class="wrapper">
+      <div class="canvas canvas-cover">
+        <div class="scene">
+          <div id="train"></div>
+          <div class="title"></div>
+          <div id="startBtn" class="button"></div>
+        </div>
+      </div>
+    </div>
+    <div id="flypage" class="wrapper">
+      <div class="canvas canvas-flypage">
+        <div class="scene">
+          <div id="tunnel"></div>
+        </div>
+      </div>
+    </div>
+    <div id="gallery" class="wrapper">
+      <div class="canvas canvas-inner wgt_carousel_aniUnit">
+        <div class="scene">
+          <div class="droplet droplet-0" data-frame="0"></div>
+          <div class="droplet droplet-1" data-frame="1"></div>
+          <div class="droplet droplet-2" data-frame="2"></div>
+          <div class="droplet droplet-3" data-frame="3"></div>
+          <div class="droplet droplet-4" data-frame="4"></div>
+          <div class="droplet droplet-5" data-frame="5"></div>
+          <div class="droplet droplet-6" data-frame="6"></div>
+        </div>
+      </div>
+      <div class="canvas canvas-people-0 wgt_carousel_aniUnit">
+        <div class="triangle colorful">
+          <div class="scene-container">
+            <div class="scene">
+              <div id="massage"></div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+        <div class="triangle colorless">
+          <div class="scene-container">
+            <div class="scene">
+              <div id="chickens"></div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+        <div class="rail">
+          <div class="button"></div>
+          <div class="arrow">
+            <div class="left-arrow"></div>
+            <div class="right-arrow"></div>
+          </div>
+        </div>
+        <div class="next">下一页</div>
+        <div class="back">回车厢</div>
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+      <div class="canvas canvas-people-1 wgt_carousel_aniUnit">
+        <div class="triangle colorful">
+          <div class="scene-container">
+            <div class="scene">
+              <div id="instrument-hand"></div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+        <div class="triangle colorless">
+          <div class="scene-container">
+            <div class="scene">
+              <div id="instruments"></div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+        <div class="rail">
+          <div class="button"></div>
+          <div class="arrow">
+            <div class="left-arrow"></div>
+            <div class="right-arrow"></div>
+          </div>
+        </div>
+        <div class="next">下一页</div>
+        <div class="back">回车厢</div>
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+      <div class="canvas canvas-people-2 wgt_carousel_aniUnit">
+        <div class="triangle colorful">
+          <div class="scene-container">
+            <div class="scene">
+              <div id="blackboard-hand"></div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+        <div class="triangle colorless">
+          <div class="scene-container">
+            <div class="scene">
+              <div id="smell"></div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+        <div class="rail">
+          <div class="button"></div>
+          <div class="arrow">
+            <div class="left-arrow"></div>
+            <div class="right-arrow"></div>
+          </div>
+        </div>
+        <div class="next">下一页</div>
+        <div class="back">回车厢</div>
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+      <div class="canvas canvas-people-3 wgt_carousel_aniUnit">
+        <div class="triangle colorful">
+          <div class="scene-container">
+            <div class="scene">
+              <div id="baby"></div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+        <div class="triangle colorless">
+          <div class="scene-container">
+            <div class="scene">
+              <div id="washing-hand"></div>
+              <div id="water"></div>
+              <div id="desk"></div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+        <div class="rail">
+          <div class="button"></div>
+          <div class="arrow">
+            <div class="left-arrow"></div>
+            <div class="right-arrow"></div>
+          </div>
+        </div>
+        <div class="next">下一页</div>
+        <div class="back">回车厢</div>
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+      <div class="canvas canvas-people-4 wgt_carousel_aniUnit">
+        <div class="triangle colorful">
+          <div class="scene-container">
+            <div class="scene">
+              <div id="talk"></div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+        <div class="triangle colorless">
+          <div class="scene-container">
+            <div class="scene">
+              <div id="circle"></div>
+              <div id="driver"></div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+        <div class="rail">
+          <div class="button"></div>
+          <div class="arrow">
+            <div class="left-arrow"></div>
+            <div class="right-arrow"></div>
+          </div>
+        </div>
+        <div class="next">下一页</div>
+        <div class="back">回车厢</div>
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+      <div class="canvas canvas-people-5 wgt_carousel_aniUnit">
+        <div class="triangle colorful">
+          <div class="scene-container">
+            <div class="scene">
+              <div id="computer"></div>
+              <div id="computer-hand"></div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+        <div class="triangle colorless">
+          <div class="scene-container">
+            <div class="scene">
+              <div id="goodbye"></div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+        <div class="rail">
+          <div class="button"></div>
+          <div class="arrow">
+            <div class="left-arrow"></div>
+            <div class="right-arrow"></div>
+          </div>
+        </div>
+        <div class="next">下一页</div>
+        <div class="back">回车厢</div>
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+      <div class="canvas canvas-people-6 wgt_carousel_aniUnit">
+        <div class="triangle colorful">
+          <div class="scene-container">
+            <div class="scene">
+              <div id="rain"></div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+        <div class="triangle colorless">
+          <div class="scene-container">
+            <div class="scene">
+              <div id="farm-hand"></div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+        <div class="rail">
+          <div class="button"></div>
+          <div class="arrow">
+            <div class="left-arrow"></div>
+            <div class="right-arrow"></div>
+          </div>
+        </div>
+        <div class="next">下一页</div>
+        <div class="back">回车厢</div>
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+      <div class="canvas canvas-end wgt_carousel_aniUnit">
+        <div class="scene">
+          <div class="title"></div>
+        </div>
+        <div class="next">下一页</div>
+        <div class="back">回车厢</div>
+      </div>
+      <div class="canvas canvas-ad-0 wgt_carousel_aniUnit">
+        <div class="scene"></div>
+        <div class="next">下一页</div>
+        <div class="back">回车厢</div>
+      </div>
+      <div class="canvas canvas-ad-1 wgt_carousel_aniUnit">
+
+
+              <div class="topimg"><img src="../static/img/ad/lastpg-suqin.png"></div>
+              <div class="word"><img src="../static/img/ad/lastpg-wd.png"></div>
+              <div class="toplogo">
+                  <ul>
+                      <li><img src="../static/img/ad/toplogo1.png"></li>
+                      <li><div ontouchstart="window.location.href='http://www.domob.cn'"><img src="../static/img/ad/toplogo2.png"></div></li>
+                      <li><div ontouchstart="window.location.href='http://www.bluemp.cn'"><img src="../static/img/ad/toplogo3.png"></div></li>
+                  </ul>
+              </div>
+              <div class="line"></div>
+              <div class="bottomlogo">
+                  <ul>
+                      <li><div ontouchstart="window.location.href='http://cn.yeahmobi.com'"><img src="../static/img/ad/botlogo1.png"></div></li>
+                      <li><div ontouchstart="window.location.href='http://www.egret.com'"><img src="../static/img/ad/botlogo2.png"></div></li>
+                      <li><div ontouchstart="window.location.href='http://www.iresearch.com.cn'"><img src="../static/img/ad/botlogo3.png"></div></li>
+                      <li><div ontouchstart="window.location.href='http://www.oneshow.com.cn'"><img src="../static/img/ad/botlogo4.png"></div></li>
+                      <li><div ontouchstart="window.location.href='http://yrey.me'"><img src="../static/img/ad/botlogo5.png"></div></li>
+                      <li><div ontouchstart="window.location.href='http://www.vcont.com'"><img src="../static/img/ad/botlogo6.png"></div></li>
+                  </ul>
+              </div>
+              <div class="back">回车厢</div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="../static/js/app.966748.js"></script>
+  </body>
+</html>
